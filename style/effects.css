@@ -1,0 +1,257 @@
+/* pointer */
+
+.nav__link, .header__button, .hero__btn, .btn_transparent,
+.how__step-link, .btn_content, .btn_white-black,
+.faq__list-item, .footer__nav-link, .social-link, .cross, .form__input, .closed-search {
+  cursor: pointer;
+}
+
+/* hover */
+
+.nav__link:hover {
+  border-bottom: 2px solid #FF9900;
+}
+
+.header__button:hover .header__button-svg_fill {
+  fill: #FF9900;
+}
+
+.header__button:hover .header__button-svg_stroke {
+  stroke: #FF9900;
+}
+
+.closed-search:hover .closed-search-svg-fill{
+  fill: #FF9900;
+}
+
+.closed-search:hover .closed-search-svg-stroke-fill {
+  stroke: #FF9900;
+}
+
+.hero__btn:hover {
+  background: rgba(255, 153, 0, 0.7);
+}
+
+.btn_transparent:hover {
+  background: #FF9900;
+}
+
+.how__step-link:hover {
+  color:#FF9900;
+}
+
+.btn_content:hover, .form__button:hover {
+  background: #F7B045;
+}
+
+.btn_white-black:hover {
+  color: #FFFFFF;
+  outline:#666666;
+  background: #666666;
+}
+
+.faq__list-item:hover  {
+  position: relative;
+  z-index: 2;
+  border-color: #FF9900;
+}
+
+.faq__list-item:hover .faq__text,.faq__list-item:focus .gray-text {
+  color: #FF9900;
+}
+
+.faq__list-item:hover .cross {
+  background: #FF9900;
+}
+
+.faq__list-item:hover .cross::before{
+  background: #FFFFFF;
+}
+
+.faq__list-item:hover .cross::after{
+  background: #FFFFFF;
+}
+
+.footer__nav-link:hover {
+  color:#FF9900;
+}
+
+.social-link:hover .social-item__hover {
+  fill: #FF9900;
+}
+
+.form__input:hover {
+  color: #CACACA;
+  background: #666666;
+}
+
+/* focus */
+
+.nav__link:focus {
+  border: 2px solid #FF9900;
+}
+
+.nav__link:focus-visible {
+  border: 2px solid #FF9900;
+}
+
+.header__button:focus {
+  border: 2px solid #FF9900;
+}
+
+.closed-search:focus {
+  border-color: #FF9900;
+}
+
+.hero__btn:focus {
+  background: rgba(255, 153, 0, 0.7);
+}
+
+.hero__btn:focus-visible {
+  background: rgba(255, 153, 0, 0.7);
+  outline: transparent;
+}
+
+.btn_transparent:focus {
+  background: #FF9900;
+}
+
+.btn_transparent:focus-visible {
+  background: #FF9900;
+  outline: transparent;
+}
+
+.how__step-link:focus {
+  outline: 2px solid #FF9900;
+}
+
+.how__step-link:focus-visible {
+  outline: 2px solid #FF9900;
+}
+
+.btn_content:focus-visible, .btn_content:focus, .form__button:focus-visible, .form__button:focus {
+  background: #F7B045;
+  outline: none;
+}
+
+.btn_white-black:focus, .btn_white-black:focus-visible {
+  color: #FFFFFF;
+  outline:#666666;
+  background: #666666;
+}
+
+.cross:focus {
+  outline: none;
+  background: #FF9900;
+}
+
+.cross:focus::before, .cross:focus::after {
+  background: #FFFFFF;
+}
+
+
+.faq__list-item:focus .cross {
+  outline: none;
+  background: #FF9900;
+}
+
+
+.faq__list-item:focus {
+  position: relative;
+  z-index: 2;
+  border-color: #FF9900;
+  outline:  none;
+}
+
+.faq__list-item:focus .faq__text, .faq__list-item:focus .gray-text {
+  color: #FF9900;
+}
+
+.faq__list-item:focus .cross::after {
+  background: #FFFFFF;
+}
+.faq__list-item:focus .cross::before {
+  background: #FFFFFF;
+}
+
+.footer__nav-link:focus-visible, .footer__nav-link:focus {
+  outline: 2px solid #FF9900;
+  outline-offset: 5px;
+}
+
+.social-link:focus, .social-link:focus-visible {
+  outline: 1px solid #FF9900;
+  outline-offset: 5px;
+}
+
+.form__input:focus, .form__input:focus-visible {
+  color: #CACACA;
+  background: #666666;
+}
+
+/* active */
+
+.nav__link:active {
+  color: #E1670E;
+  border: 2px solid transparent;
+  border-bottom: 2px solid #E1670E;
+}
+
+
+/* .header__button:active  */
+
+.hero__btn:active {
+  background-color: #E1670E;
+}
+
+.btn_transparent:active {
+  background: #E1670E;
+  border-color: #E1670E;
+}
+
+.how__step-link:active {
+  color:#E1670E;
+}
+
+.btn_content:active, .form__button:active {
+  background: #E1670E;
+}
+
+.btn_white-black:active {
+  background: #000000;
+}
+
+.faq__list-item:active .cross::before {
+  transform: rotate(-45deg);
+}
+
+.faq__list-item:active .cross::after{
+  transform: rotate(45deg);
+}
+
+.faq__list-item:active .cross {
+  background: #666666;
+}
+
+.faq__list-item:active .faq__text {
+  color: #333333;
+}
+
+.faq__list-item:active {
+  border-color: #CACACA;
+}
+
+.footer__nav-link:active {
+  color: #E1670E;
+  outline: none;
+}
+
+.social-link:active .social-item__hover {
+  fill: #E1670E;
+  outline: none;
+}
+
+.form__input:hover {
+  color: #FFFFFF;
+  background: #666666;
+}
